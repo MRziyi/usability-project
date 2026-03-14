@@ -8,7 +8,6 @@ import { StatusBadge, PhaseBadge } from "@/components/status-badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Copy, ChevronLeft, ChevronRight } from "lucide-react";
 import type { Metadata } from "next";
-import { ForumPostCallout } from "./forum-post-callout";
 
 const phaseOrder = ["3a", "3b", "3c", "3d", "3e", "3f"];
 const phaseLabels: Record<string, string> = {
@@ -114,9 +113,6 @@ export default async function PhasePage({
           </div>
         </div>
       )}
-
-      {/* Forum Post Callout for 3A */}
-      {phase === "3a" && <ForumPostCallout config={config} />}
 
       {/* Markdown Content */}
       <MarkdownRenderer content={content.content} />

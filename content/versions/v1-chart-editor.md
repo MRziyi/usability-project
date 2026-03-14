@@ -1,31 +1,28 @@
 ---
-title: "v1 — Initial Chart Editor Redesign"
-date: "2026-02-20"
+title: "v1 — Initial Redesign Directions (3C)"
+date: "2026-03-13"
 phase: "3C"
-status: "Done"
-tags: ["chart-editor", "redesign", "v1"]
+status: "Draft"
+tags: ["version", "3c", "concepts"]
 relatedLinks:
-  - label: "Figma Prototype"
-    url: "#"
-  - label: "Screenshots"
-    url: "#"
+  - label: "Phase 3C Page"
+    url: "/phases/3c"
+  - label: "Prototype (placeholder)"
+    url: "TBD"
 ---
 
-## Problem Statement
+# v1 — Initial Redesign Directions (3C)
 
-The current Looker Studio chart editor requires too many clicks to configure basic chart properties. Users struggle to find settings and frequently lose context when switching between data and style tabs.
+This version captures our **first consolidated redesign directions** based on Phase 3B user-study evidence.
 
-## Design Changes
+## What changed (conceptually)
+- Added a beginner-shaped data import path (Upload/Import)
+- Made dataset-to-chart binding visible and actionable
+- Reduced ambiguity in chart editing controls (field row, sort, chart type)
+- Improved annotation authoring model (handles, move/edit clarity, responsive constraints visibility)
 
-- Unified configuration panel replacing the split Data/Style tabs
-- Contextual property editors that appear inline when chart elements are selected
-- Improved visual hierarchy in the properties panel
-- Added quick-access toolbar for common chart operations
+## Why it changed (rationale)
+Users repeatedly knew what they wanted to do, but struggled to find how the editor expects them to do it. Our redesign focuses on discoverability, legibility of system state, and alignment with common authoring mental models.
 
-## Rationale
-
-TODO: Tie each design change to specific heuristic violations found in Phase 3B.
-
-## Before / After
-
-TODO: Add before/after screenshots. Store images in `/public/media/versions/v1/`.
+## Next
+Refine these concepts into a small set of “client-ready” alternatives (Phase 3C → Phase 3F), then iterate based on peer feedback (3D/3E).
