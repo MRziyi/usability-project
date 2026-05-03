@@ -48,13 +48,13 @@ export default function HomePage() {
             </p>
             <div className="flex flex-wrap items-center gap-3">
               <Button asChild>
-                <Link href="/phases/3c">
-                  Read Plan (3C)
+                <Link href="/phases/3f">
+                  Read Final Redesigns (3F)
                   <ArrowRight className="size-4" />
                 </Link>
               </Button>
               <Button asChild variant="outline">
-                <Link href="/versions">Jump to Latest Version</Link>
+                <Link href="/versions/v2-final-redesign">View v2 (Latest)</Link>
               </Button>
               <Button asChild variant="ghost">
                 <Link href="/billing">Billing Summary</Link>
